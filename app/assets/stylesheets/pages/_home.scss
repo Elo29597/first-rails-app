@@ -1,1 +1,177 @@
 // Specific CSS for your home-page
+.h1{
+  text-align: center;
+}
+
+
+.banner{
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 20px;
+  display: flex;
+      -webkit-box-align: center;
+    align-items: center;
+    color: white;
+
+}
+
+.div{
+  display: flex;
+}
+.header{
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.text-center{
+  text-align: center;
+
+}
+
+.d-flex{
+  display: flex;
+
+}
+
+.form-control{
+
+margin: 4px;
+    width: auto;
+    border-radius: 5px;
+
+
+}
+
+.btn-flat{
+      color: white;
+    padding: 8px 20px;
+    border-radius: 4px;
+    background: #6f9a8d;
+    margin-left: 20px;
+    transition: background 0.3s;
+}
+
+.btn {
+  display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.contact{
+
+   padding: 30px;
+}
+
+
+.about {
+background-color: #f4f9f4;
+
+}
+.info {
+  text-align: center;
+  color: white;
+
+}
+
+.about_us {
+  text-align: center;
+  padding: 30px;
+  letter-spacing: .1em;
+
+
+
+}
+.block {
+  display: flex;
+ justify-content: center;
+
+}
+
+
+
+
+/* Float four columns side by side */
+.column {
+  width: 33.33%;
+  padding: 0 10px;
+  height: auto;
+  display: flex;
+  text-align: center;
+
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;
+  }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+
+.card_info{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background-color: #ecf4f3;
+
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.titre{
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+  opacity: 0.9;
+  color: white;
+  font-family: fangsong;
+
+}
+.footer {
+      text-align: center;
+    padding: 20px;
+
+    }
+.droite{
+  padding: 3px;
+text-align: left;
+
+
+}
+
+.links {
+  font-size: 15px;
+}
+
+.links:hover{
+  color: red;
+}
+
+.test h2{
+  text-align: center;
+  color: rgb(0,166,187);
+display: block;
+text-align: center;
+}
+
