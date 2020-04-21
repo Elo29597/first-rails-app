@@ -1,5 +1,7 @@
 {
   "name": "first-rails-app",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
 }
